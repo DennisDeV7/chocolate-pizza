@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100px;
+}
+
+header.container {
+  position: relative;
+}
+
+.topright {
+  position: absolute;
+  top: 30px;
+  right: 16px;
+  padding-left: 1px;
+}
+
+.topright:nth-child(7) {
+  padding-left: 3px;
+}
+
+
+main{
+  background-image: url(img/hr-img.png);
+  background-repeat: repeat-x;
+}
+
+
+p {
+  text-indent: 50px;
+  color: darkgray;
+}
+
+ul {
+  columns:2;
+  list-style-type: none;
+}
+
+div.container {
+  position: relative;
+  text-justify: center;
+}
+
+.centered {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: middle
+}
+
+
+#authorSection img {
+  float: left;
+}
+
+#authorSection p{
+  width: 600px;
+  text-indent: -0px;
+}
+
+/* #authorInfo {
+  display: inline-block;
+} */
+
+#authorInfo button {
+  right: 0px;
+}
+
+
